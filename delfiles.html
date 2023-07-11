@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="description" content="about">
+   <meta name="author" content="blume">
+   <meta name="date" content="2011-12-23">
+   <title>blumetools - physikalisches loeschen von dateien</title>
+   <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+
+<table cellpadding="10" cellspacing="10" width="100%" valign="top" border="0">
+  <colgroup><col width="25%"><col width="75%"></colgroup>
+  <tr>
+    <td class="header" colspan="2">blumetools - physikalisches loeschen von dateien</td>
+  </tr>
+  <tr>
+        <td class="left" width="25%">
+          <a href="tools.html">die tools</a><br><br>
+          <a href="delfilesen.html">english</a><br>
+        </td>
+        <td class="content" width="75%">
+<h3>Die Maer vom richtigen loeschen</h3>
+<font size="1"><img src="http://webcounter.goweb.de/16238LINKIMG-8&321T"> mal gelesen</font><br /><br />
+Es gibt Programme in grossen Kisten, die versprechen, Daten sicher zu entsorgen.<br>
+<br>
+Abgekupfert von der Vorschrift der <a href="delfilesen.html">Amis</a>, empfiehlt 
+auch das Bundesamt fuer Sicherheit in der Informationstechnik (BSI) eine etwas 
+umstaendliche Loeschprozedur.<br>
+<br>
+Warum sollte ein ueberschriebenes Bit auf der Festplatte noch Informationen darueber 
+enthalten, was vorher an dieser Stelle gespeichert war? Dazu ein <a href="http://www.ct.de/">c't-Artikel</a>:<br>
+<hr>
+c't 5/03, S. 192 (axv)<br>
+Auf Nimmerwiedersehen - Dateien richtig loeschen<br>
+Axel Vahldiek, Lars Bremer<br>
+<br>
+<a href="http://www.forumdeluxx.de/forum/showpost.php?p=691806&postcount=15" target=_blank>Auszug:</a><br>
+...<br>
+Zum Ueberschreiben einer kompletten Festplatte fehlt Windows zwar ein entsprechendes Bordmittel, Linux bringt jedoch mit dd ein passendes Werkzeug mit, das auch fuer Windows-Nutzer leicht zu bedienen ist. Die Installation von Linux ist hierfuer nicht erforderlich, denn dd findet sich auch auf der komplett von CD laufenden Knoppix-Distribution, die auf der Heft-CD der c't 4/03 enthalten war.<br>
+Nach dem Booten der Knoppix-CD gibt man bei der ersten Nachfrage einfach `knoppix 2' ein, um nur die Kommandozeile zu starten. Der Befehl<br>
+<pre>dd if=/dev/zero of=/dev/hda bs=65536</pre>
+ueberschreibt die ausgewaehlte Platte von Anfang bis Ende mit Nullen. Der Parameter `hda' ist gegebenenfalls anzupassen. So steht `hda' fuer die Master-Platte am ersten IDE-Kanal, `hdb' fuer den Slave am ersten Kanal, `hdc' fuer den Master und `hdd' fuer den Slave am zweiten IDE-Kanal. Bei SCSI-Laufwerken ist das `h' durch ein `s' zu ersetzen, die erste Platte heißt also `sda', die zweite `sdb' und so weiter. <br>
+...<br>
+Das Bundesamt fuer Sicherheit in der Informationstechnik (BSI) empfiehlt uebrigens, Daten dreimal mit komplementaeren Bitmustern zu ueberschreiben, um eine `fuer mittleren Schutzbedarf ausreichende physikalische Loeschung' zu erreichen [4]. Um zu ueberpruefen, ob das wirklich noetig ist, haben wir an die Datenrettungsfirmen Ibas, Ontrack und Vogon Festplatten geschickt, auf denen sich vier Textdateien auf einer intakten FAT32-Partition befanden. Diese Dateien loeschten wir mit verschiedenen Methoden. Die erste Datei ueberschrieben wir einmalig mit Nullen, die zweite einmalig mit einem zufaelligen Bitmuster, die dritte dreimal nacheinander mit Nullen und die vierte nach BSI-Empfehlung dreimal mit komplementaeren Bitmustern. Die Datenretter sollten nun zeigen, was denn noch zu retten ist. Die Antwort faellt kurz aus: <b>nichts</b>.<br>
+...<br>
+Um Daten auf einer Festplatte wirklich zu vernichten, muss man die komplette Platte einmalig ueberschreiben - nicht mehr und nicht weniger. Mehr mag zwar Paranoiker befriedigen, bringt aber keine zusaetzliche Sicherheit. Weniger hingegen mag zwar das Wiederauffinden der Daten erschweren, es bleibt dann aber ein Restrisiko.<br>
+<br>
+Auszug Ende
+<hr>
+Der Standard fuer das komplette und unwiederbringliche Loeschen und Beseitigen von
+Informationen auf beschreibbaren Datentraegern
+<br>
+<b>VvS 555.342.3-K</b> (auch: Verwischen von Spuren) des Ministeriums des Inneren schreibt folgendes vor:
+<br>
+<br>
+
+<ul>
+<li>Umbenennen der Datei mit einem Namen, der bis zur gleichen Laenge wie der Original-Name mit einem Zeichen aufgef&uuml;llt ist,
+    dann mit dem Komplement des Zeichen,
+    und noch einmal mit einem zufaelligen Zeichen,
+    damit der Original-Name aus dem Datei-System verschwindet.</li>
+<br>
+<li>Ueberschreiben des Inhaltes der Datei mit einem Zeichen,
+    dann mit dem Komplement des Zeichens,
+    und noch einmal mit einem zufaelligen Zeichen.</li>
+<br>
+<li>Zuletzt wird die Datei geloescht.</li>
+<br>
+<li>Anmerkung: Der Standard erklaert ausdruecklich, dass diese Methode nicht fuer sensible,
+    streng vertrauliche Informationen anwendbar ist. Streng vertrauliche Daten sind nur durch ein Typ 1 oder 2
+    Entmagnetisieren des Datentraegers, oder ein Zersetzen, Verbrennen, Pulverisieren,
+    Zermahlen oder Einschmelzen des Datentraegers zu vernichten.</li>
+</ul>
+        </td>
+  </tr>
+</table>
+
+</body>

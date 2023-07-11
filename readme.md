@@ -133,9 +133,9 @@ Farb-Konverter in action
 
 #### links
 
-*   Joeren Kessel's (http://www.kessels.com/), author of JKDefrag and MyDefrag
+*   [Joeren Kessel's](http://www.kessels.com/), author of JKDefrag and MyDefrag
 *   [Sequoia View](http://www.win.tue.nl/sequoiaview/)
- - [WinDirStat](http://windirstat.info/)
- - [BartPE](http://www.nu2.nu/pebuilder/)
- - [SysInternals](https://learn.microsoft.com/de-de/sysinternals/downloads/)
- - [Ninite multi installer](https://ninite.com/)
+*   [WinDirStat](http://windirstat.info/)
+*   [BartPE](http://www.nu2.nu/pebuilder/)
+*   [SysInternals](https://learn.microsoft.com/de-de/sysinternals/downloads/)
+*   [Ninite multi installer](https://ninite.com/)

@@ -77,6 +77,8 @@ kopy in action on a scratched CD
 
 #### AutoEditor 1.1
 
+latest version: [AutoEditor 3.x](https://github.com/leBluem/AutoEditor)
+
 [![AutoEditor with some generated java code](pics/autoeditor_sm157x120.gif "AutoEditor with some generated java code")](pics/autoeditor.gif)
 AutoEditor with some generated java code
 

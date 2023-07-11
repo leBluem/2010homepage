@@ -1,6 +1,8 @@
 ## blumetools
 
-Freeware (some with source code): use it as you wish. No licence stuff. Use at your own risk. Unpack und run. All programs and sources packed with ZIP. Binaries additionally packed with [UPX](http://www.oberhumer.com/opensource/upx/). Screenshoots not always from current version.
+view this as old school version: https://lebluem.github.io/
+
+Freeware programs for windows, some with source code. Use it as you wish. No licence stuff. Use at your own risk. Unpack und run. All programs and sources packed with ZIP. Binaries additionally packed with [UPX](http://www.oberhumer.com/opensource/upx/). Screenshoots not always from current version.
 
 #### TrafMon 1.5
 

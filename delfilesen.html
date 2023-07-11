@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="description" content="about">
+   <meta name="author" content="blume">
+   <meta name="date" content="2011-12-23">
+   <title>blumetools - physical deletion of files</title>
+   <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+
+<table cellpadding="10" cellspacing="10" width="100%" valign="top" border="0">
+  <colgroup><col width="25%"><col width="75%"></colgroup>
+  <tr>
+    <td class="header" colspan="2">blumetools - physical deletion of files</td>
+  </tr>
+  <tr>
+        <td class="left" width="25%" align="center" valign="top">
+          <a href="toolsen.html">the tools</a><br><br>
+		  <a href="delfiles.html">deutsch</a>
+        </td>
+        <td class="content" width="75%">
+<h3>The tale about data wiping</h3>
+<font size="1">read <img src="http://webcounter.goweb.de/16238LINKIMG-9&321T"> times</font><br /><br />
+There are programs in big boxes out there that pretend to wipe data.<br>
+Why should an overwritten bit on a disk still contain information about what 
+was previously stored on its place? About that an article from <a href="http://www.ct.de/">c't</a>:<br>
+<hr>
+translated from <a href="delfiles.html">original</a> with <a href="http://babelfish.altavista.com/">babelfish</a><br>
+<br>
+c't 5/03, S. 192 (axv)<br>
+Auf Nimmerwiedersehen - Dateien richtig löschen (Good bye forever - Wiping files for sure)<br>
+Axel Vahldiek, Lars Bremer<br>
+<br>
+<a href="http://www.forumdeluxx.de/forum/showpost.php?p=691806&postcount=15" target=_blank>Digest:</a><br>
+...<br>
+For overwriting a complete a disk, Windows is missing an appropriate tool, Linux brings along a suitable tool with dd, which is to be served also for Windows users easily. The installation of Linux is not necessary for this, because dd is also on a Knoppix distribution completely running from CD.<br>
+<br>
+After that boot of the Knoppix CD start only the command line. The instruction<br>
+<pre>dd if=/dev/zero of=/dev/hda bs=65536</pre>
+overwrites the selected disk from beginning to end with zeros. The parameter "hda" is to be adapted if necessary. Thus stands "hda" for the master plate at the first IDE channel, "hdb" for the Slave at the first channel, "hdc" for the master and "hdd" for the Slave at the second IDE channel. For SCSI drives the "h" has to be replaced by a "s", the first plate is called thus "sda", second "sdb" and so on.<br>
+...<br>
+The Federal Office for security in the information technology (BSI) by the way recommends to overwrite data three times with complementary bit samples in order to reach one ` for middle protection need sufficient physical deletion ' [ 4]. In order to examine, whether that is really necessary, we sent Ontrack and Vogon non removable disks, on which four text files on an intact FAT32-Partition were to the data rescue companies Ibas. We deleted these files with different methods. The first file we overwrote uniquely with zeros, second uniquely with a coincidental bit design, third three times successively with zeros and fourth after BSI recommendation three times with complementary bit samples. The data rescuers should show now, what is to be still saved. To answer briefly: <b>nothing</b>.<br>
+...<br>
+In order to really wipe data on a disk, one have to overwrite the complete disk one time - no more and no less. More may satisfy Paranoiker, brings however no additional security.<br>
+<br>
+Digest end
+<hr>
+The clearing and wiping standard procedure for information on 
+writable disks DOD 51.8.0-ALB (aka deletion of death) of the 
+Department of Defense dictates the following:
+<ul>
+<li>Rename the file to a name with a character up to the same length like the original filename,
+    then to a name with the character's complement,
+    then with a random character,
+    so that it's original name is wiped from the file-system.</li>
+<li>Overwrite the content of the file with a character,
+    then with the character's complement,
+    and then with a random character.</li>
+<li>Last but not least delete the file.</li>
+<li>Note: the standard outlines that this method is not suitable for TOP SECRET information.
+TOP SECRET data wiping is only achievable by a Type 1 or 2 degauss of the disk, or by disintegrating,
+incinerating, pulverizing, shreding, or melting the disk.</li>
+</ul>
+        </td>
+  </tr>
+</table>
+
+</body>
+

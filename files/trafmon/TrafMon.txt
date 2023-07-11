@@ -1,0 +1,42 @@
+TrafMon 1.5 - 9. May 2017 - http://blumetools.dd-dns.de/
+
+Freeware Windows (NTs4/2K/XP/V/7/8/10) program to monitor network traffic.
+No statistic, no database stuff. An Icon in System-Tray is always visible.
+A single click on it toggles the visibility of the main TrafMon-Window. A right
+click shows a menu with some often used options. A double click on the icon OR
+on TrafMon-main-window opens TrafMon-Options. On first start TrafMon-Options
+will always be shown. All settings will be saved in an ini-file in the same
+directory as the executable. Coded in Delphi7.
+
+history:
+
+  v1.5 (9. May 2017)
+    - fixed win8/10 interface detection
+    - fixed not quiting on shutdown
+
+  v1.4 (17. Dec 2013)
+    - fixed wrong measuring after Standby
+    - fixed getting external IP
+    - removed double/invalid network interfaces
+    - added HideOnMouseOver feature
+
+  v1.3 (25. Mar 2012)
+    - fixed win7 compatibility
+    - better default values
+    - minor init fixes
+
+  v1.2 (22. Jun 2011)
+    - fixed infinite loop if in maximum width
+    - fixed delete peaks for visible part
+    - minor drawing fixes
+    - more aggressive "always on top" strategy
+    - fixed detection of adapters (IP or MAC needed)
+
+  v1.1 (26. April 2010)
+    - compiled with a clean delphi version!
+      because of this: http://www.heise.de/security/meldung/Virus-infiziert-Entwicklungsumgebung-Update-751857.html
+    - minor interface fixes
+
+  v1.0 (1. March 2010)
+    initial version
+

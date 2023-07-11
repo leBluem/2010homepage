@@ -1,0 +1,42 @@
+body 
+{
+   /*background-image:url(images/t02k.gif);*/
+   /*font-family:Lucida Console,sans-serif;*/
+   background-color:#bbbbbb;
+}
+
+table, td, th, text, li, div, body 
+{
+   /*font-family:Lucida Console,sans-serif;*/
+   /*font-size:10pt;*/
+   /* font-size:6pt; */
+   /* text-align:center; */
+   /* vertical-align:middle; */
+}
+
+div.tinystyle 
+{
+   font-family:"Lucida Console",sans-serif;
+   font-size:6pt;
+}
+
+td.header 
+{
+  background-color:#555555;
+  color:#ffffff;
+  text-align:center;
+  font-size:larger;
+}
+
+td.left 
+{
+  background-color:#999999;
+  vertical-align:top;
+  text-align:center;
+}
+
+td.content 
+{
+  background-color:#dddddd;
+  vertical-align:top;
+}

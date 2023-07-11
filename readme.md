@@ -2,7 +2,7 @@
 
 Watch this in its original old school design: https://lebluem.github.io/
 
-Freeware Windows programs, some with source code. No licence stuff. Use it as you wish. Use at your own risk. Unpack und run. All programs and sources packed with ZIP. Binaries additionally packed with [UPX](http://www.oberhumer.com/opensource/upx/). Screenshoots not always from current version.
+Freeware Windows programs, some with source code. No licence stuff. Use it as you wish. Use at your own risk. Unpack und run. All programs and sources packed with ZIP. Binaries additionally packed with [UPX](http://www.oberhumer.com/opensource/upx/). Screenshoots not always from current version. Warning! No animated gifs here :)
 
 
 ### TrafMon 1.5

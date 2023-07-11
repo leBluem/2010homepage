@@ -1,8 +1,11 @@
 ## blumetools
 
-Freeware (some with source code): use it as you wish. No licence stuff. Use at your own risk. Unpack und run. All programs and sources packed with ZIP. Binaries additionally packed with [UPX](http://www.oberhumer.com/opensource/upx/). Screenshoots not always from current version.
+Watch this in its original old school design: https://lebluem.github.io/
 
-#### TrafMon 1.5
+Freeware Windows programs, some with source code. No licence stuff. Use it as you wish. Use at your own risk. Unpack und run. All programs and sources packed with ZIP. Binaries additionally packed with [UPX](http://www.oberhumer.com/opensource/upx/). Screenshoots not always from current version.
+
+
+### TrafMon 1.5
 
 [![Trafmon options and two sample layouts](pics/trafmon_sm.gif "Trafmon options and two sample layouts")](pics/trafmon.gif)
 Trafmon options and two sample layouts
@@ -15,7 +18,8 @@ Network Traffic Monitor for Windows (NTs4/2K/XP/V/7/8/10)
 
 [TrafMon.txt](files/trafmon/TrafMon.txt)
 
-#### DiskBuddy 0.8
+
+### DiskBuddy 0.8
 
 [![DiskBuddy main Window](pics/db1_sm.gif "DiskBuddy main Window")](pics/db1.gif)   [![DiskBuddy showing an NFTS MFT-record](pics/db2_sm.gif "DiskBuddy showing an NFTS MFT-record")](pics/db2.gif)
 DiskBuddy main Window and DiskBuddy showing an NFTS MFT-record
@@ -28,7 +32,8 @@ HDD/Partition NTFS/FAT browser and info, a project I continued from version 0.4.
 
 [DiskBuddy.txt](files/diskbuddy/DiskBuddy.txt)
 
-#### SonoGram 3.5
+
+### SonoGram 3.5
 
 [![SonoGram showing the face from Aphex Twins 'equation'](pics/sonogram2_sm.gif "SonoGram showing the face from Aphex Twins 'Equation'")](pics/sonogram2.gif)
 SonoGram showing the face from Aphex Twins 'equation'
@@ -42,7 +47,8 @@ Windows (NTs4/2K/XP/V/7) program to draw a sonagram (aka spectrogram) of audio d
 
 [readme.txt](files/sonogram/readme.txt)
 
-#### Defragger 3.9alpha
+
+### Defragger 3.9alpha
 
 [![Defragger in Aktion](pics/defragger_sm.gif "Defragger in Aktion")](pics/defragger.gif)
 Defragger in Aktion
@@ -55,7 +61,8 @@ Windows (NTs4/2K/XP/V/7/PE 32+64b) program to defrag FAT16/32/NTFS-partitions (o
 
 [readme.txt](files/defragger/readme.txt)
 
-#### Kopy 2.0
+
+### Kopy 2.0
 
 [![kopy in action on a scratched CD](pics/kopy_sm.gif "kopy in action on a scratched CD")](pics/kopy.gif)
 kopy in action on a scratched CD
@@ -75,7 +82,8 @@ kopy in action on a scratched CD
 
 [readme.txt](files/kopy/readme.txt)
 
-#### AutoEditor 1.1
+
+### AutoEditor 1.1
 
 latest version: [AutoEditor 3.x](https://github.com/leBluem/AutoEditor)
 
@@ -90,7 +98,8 @@ Tool for automatic text manipulation via masks and counters. Features: search an
 
 [readme.txt](files/autoeditor/readme.txt)
 
-#### RegSR 2.0
+
+### RegSR 2.0
 
 [![RegSR in Aktion](pics/regsr_sm.gif "RegSR in Aktion")](pics/regsr.gif)
 
@@ -101,10 +110,11 @@ RegSR in Aktion
 *   first search, then select from results, which branches/keynames/key-values to replace/delete
 *   search for REG\_SZ, REG\_EXPAND\_SZ, REG\_MULTI\_SZ registry-types
 
-[regsr20\_bin.zip](files/regsr20_bin.zip") - 211 kB
+[regsr20\_bin.zip](files/regsr20_bin.zip") - 211 kB (Delphi 7)
 [readme.txt](files/regsr/readme.txt)
 
-#### ExitWin 2.0
+
+### ExitWin 2.0
 
 [![ExitWin countdown](pics/exitwin_sm.gif "ExitWin countdown")](pics/exitwin.gif)
 ExitWin countdown
@@ -115,7 +125,9 @@ ExitWin countdown
 
 [exitwin.zip](files/exitwin.zip") \- 11 kB
 [exitwinsrc.zip](files/exitwinsrc.zip") - 13 kB (VB 6)
-#### ColorConverter 2.0
+
+
+### ColorConverter 2.0
 
 [![Farb-Konverter in action](pics/colorconv_sm.gif "Farb-Konverter in action")](pics/colorconv.gif)
 Farb-Konverter in action
@@ -124,10 +136,10 @@ Farb-Konverter in action
 *   select/change/show colors
 *   colors-formats: RGB\[0..1\]/RGB\[0..255\]/hexadecimal/windows-color-value(0..16777215)
 *   form to import to VBA (Excel/Word/Corel) or VB6
-
-
 [colorconvsrc.zip](files/colorconvsrc.zip") - 6 kB (VBA)
-#### links
+
+
+### links
 
 *   [Joeren Kessel's](http://www.kessels.com/), author of JKDefrag and MyDefrag
 *   [Sequoia View](http://www.win.tue.nl/sequoiaview/)

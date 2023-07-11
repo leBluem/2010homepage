@@ -133,14 +133,9 @@ Farb-Konverter in action
 
 #### links
 
-Joeren Kessel's [JKDefrag](http://www.kessels.com/JKDefrag/) and [MyDefrag](http://www.mydefrag.com/)
+Joeren Kessel's (http://www.kessels.com/), author of JKDefrag and MyDefrag
 [Sequoia View](http://www.win.tue.nl/sequoiaview/), [WinDirStat](http://windirstat.info/)
 [BartPE](http://www.nu2.nu/pebuilder/)
-[PageDefrag](http://www.microsoft.com/technet/sysinternals/FileAndDisk/PageDefrag.mspx)
-[DVDisaster](http://www.dvdisaster.com/)
-
-* * *
-
+[SysInternals](http://www.microsoft.com/technet/sysinternals/)
 [Ninite multi installer](https://ninite.com/)
-[Teamviewer download](https://www.teamviewer.com/en/download/windows/)
 [SysInternals](https://www.sysinternals.com/)
